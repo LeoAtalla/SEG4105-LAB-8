@@ -5,12 +5,13 @@
 - Rationale: xxx
 
 ## 2. Component Interaction Diagram (Mermaid)
+
 ```mermaid
 flowchart LR
-   Client[Client / User Interface] --> Controller[API / Controller Layer] 
-   Controller --> Service[Core Business Logic]
-   Service --> Repository[Data Access Layer]
-   Repository --> DB[(Database / Storage)] 
+   Client["Client / User Interface"] --> Controller["API / Controller Layer"] 
+   Controller --> Service["Core Business Logic"]
+   Service --> Repository["Data Access Layer"]
+   Repository --> DB["(Database / Storage)"] 
 ```
 
 ## 3. Data Flow & Execution Lifecycle
